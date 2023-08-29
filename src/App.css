@@ -1,0 +1,197 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.react-select {
+  outline: 0;
+  font-size: 20px;
+  margin-bottom: 22px;
+}
+
+.react-select .react-select__control {
+  border-radius: 0;
+  border-color: rgba(0, 0, 0, 0.4) !important;
+  box-shadow: none !important;
+  height: 50px;
+}
+
+.react-select .react-select__menu {
+  margin-top: 0;
+  border-radius: 0;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.react-select .react-select__option {
+  color: #000;
+  background: #fff;
+}
+
+.react-select .react-select__option:hover {
+  background-color: rgba(196, 196, 196, 0.4);
+}
+
+.react-select .react-select__option--is-selected {
+  font-weight: 400;
+}
+
+.react-select .react-select__value-container {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.react-select .react-select__indicator-separator {
+  background-color: transparent;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+h2 {
+  color: #000;
+  font-variant-numeric: slashed-zero;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -1.12px;
+  text-transform: capitalize;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+h3 {
+  color: #000;
+  font-feature-settings:
+    "ss01" on,
+    "calt" off;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 22px;
+}
+
+.plugin-input {
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  background: #fff;
+  outline: 0;
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+  padding: 10px 13px;
+}
+.plugin-input.error {
+  color: #ff0000;
+}
+
+.container {
+  font-size: 14px;
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  border: 1px solid #dddddd;
+  background: #fff;
+}
+
+.left-sub-container {
+  border-right: 1px solid #dddddd;
+  padding: 50px;
+  flex: 1;
+  max-width: 311px;
+}
+
+.center-sub-container {
+  padding: 100px 23px;
+  background-color: #f6f6f6;
+  flex: 1;
+}
+
+.right-sub-container {
+  border-left: 1px solid #dddddd;
+  padding: 50px;
+  flex: 1;
+  max-width: 311px;
+}
+
+.value-label {
+  color: #000;
+  font-feature-settings:
+    "ss01" on,
+    "calt" off;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.value-label-sm {
+  color: #000;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-feature-settings: "ss01" on;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.11px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.value-label-sm-error {
+  color: #ff0000;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-feature-settings: "ss01" on;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.11px;
+  text-transform: uppercase;
+  margin-bottom: 9px;
+  visibility: hidden;
+}
+
+.value-label-sm-error.error {
+  visibility: unset;
+}
+
+.value {
+  display: flex;
+  color: #000;
+  font-feature-settings:
+    "ss01" on,
+    "calt" off;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px; /* 100% */
+  letter-spacing: -1.8px;
+  margin-bottom: 24px;
+}
+
+.currency {
+  transform: translateY(-4px);
+  font-size: 0.5em;
+  margin-right: 4px;
+}
+
+.value-m {
+  color: #000;
+  font-feature-settings: "ss01" on;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 33px */
+}
+
+.horizontal-rule {
+  margin: 34px 0;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.1);
+}
